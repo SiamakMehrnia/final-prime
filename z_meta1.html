@@ -13,16 +13,17 @@
         border: 5px solid #eee;
 
         /* flex-direction: column; */
-        justify-content: space-around;
+        justify-content:space-around;
         /* Cross access */
         align-items: center;
 
         gap: 2rem;
         /* height: 90vh; */
-        height:10rem;
+        height:14rem;
       }
       .flex-child {
-        width: 7rem;
+        width: 6rem;
+          height:6rem;
         aspect-ratio: 1;
         background-color: indigo;
         box-shadow: 5px 5px 7px grey;
@@ -64,6 +65,47 @@
       </div>
 
       <div class="flex-parent" style="background-color: #fff">
+        <div class="flex-child">#</div>
+        <div
+          class="flex-child"
+          style="background-color: #fff; box-shadow: 5px 5px 7px #45c14e"
+        >
+          #45c14e
+        </div>
+        <div
+          class="flex-child"
+          style="background-color: #fff; box-shadow: 5px 5px 7px #dff8eb"
+        >
+          #dff8eb
+        </div>
+        <div
+          class="flex-child"
+          style="background-color: #fff; box-shadow: 5px 5px 7px #4ee8e2"
+        >
+          #4ee8e2
+        </div>
+        <div
+          class="flex-child"
+          style="background-color: #fff; box-shadow: 5px 5px 7px #00324b"
+        >
+          #00324b
+        </div>
+        <div
+          class="flex-child"
+          style="background-color: #fff; box-shadow: 5px 5px 7px #002c43"
+        >
+          #002c43
+        </div>
+        <div
+          class="flex-child"
+          style="background-color: #fff; box-shadow: 5px 5px 7px #fcfcfc"
+        >
+          #fcfcfc
+        </div>
+      </div>
+
+      <!-- Schatten auf dunklem Hintergrund -->
+      <div class="flex-parent" style="background-color: #222">
         <div class="flex-child">#</div>
         <div
           class="flex-child"
