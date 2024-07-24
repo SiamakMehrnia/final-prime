@@ -27,7 +27,11 @@ body {
 .argumente {
   display: grid;
   column-gap: 50px;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* Elemente kommen in eine Reihe, solange sie mindestens 150px gross sein koennen (bis maximal 1fr). 
+  Sonst wird Spaltenanzahl reduziert. */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
   margin: 2rem 0 3rem 0;
   padding: 0 2rem 0 3rem;
 }
@@ -41,6 +45,9 @@ body {
   height: 100px;
   background-color: #00324b;
   clip-path: circle();
+}
+.argument img:hover {
+  clip-path: none;
 }
 
 .argument p {
