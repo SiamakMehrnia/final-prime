@@ -1,5 +1,95 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-parent7 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 1px solid;
+  background-color: rgb(225, 231, 231);
+
+  width: 1440px;
+  height: 734px;
+
+  gap: 1.5rem;
+
+  padding-block: 4rem;
+}
+
+.text7 {
+  text-align: center;
+  align-self: center;
+  width: 793px;
+  height: 205px;
+}
+
+.flex-parent {
+  display: flex;
+  align-self: center;
+  gap: 2rem;
+}
+
+.flex-child7 {
+  align-items: center;
+  width: 291px;
+  height: 396px;
+  aspect-ratio: 1;
+  border: 1px solid;
+  text-align: center;
+}
+
+.flex-child7:nth-of-type(2) {
+  background-color: rgb(155, 153, 153);
+}
+.flex-child7:nth-of-type(3) {
+  background-color: rgb(178, 174, 174);
+}
+.flex-child7:nth-of-type(4) {
+  background-color: rgb(207, 200, 200);
+}
+
+.container8 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  background-color: rgb(225, 231, 231);
+
+  width: 1440px;
+  height: 580px;
+
+  gap: 1.5rem;
+  justify-content: center;
+  padding-block: 4rem;
+}
+
+.child-h3 {
+  align-self: center;
+}
+
+.nav1 {
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav1 li {
+  display: inline-block;
+  margin-block: 5px;
+  margin-left: 25px;
+}
+
+.ul1 {
+  align-self: center;
+}
+
+.ul1 li {
+  display: inline-block;
+  margin-block: 5px;
+  margin-left: 25px;
 }
