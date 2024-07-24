@@ -1,5 +1,94 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+.container1 {
+  border: 3px solid black;
+  height: 10%;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+}
+.logo {
+  border: 3px solid black;
+  width: 30%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+}
+.container1 p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.manu {
+  width: 30%;
+  border: 3px solid black;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgrey;
+}
+.manu ul {
+  display: flex;
+  padding: 5px;
+}
+.manu ul li {
+  list-style: none;
+  margin: 5px;
+  font-size: 1.3rem;
+  padding: 5px;
+  border: 2px inset black;
+}
+.manu ul li a{
+  text-decoration: none;
+  color: black;
+}
+.container2 {
+  border: 3px solid black;
+  height: 30vh;
+  margin-block: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: grey;
+}
+.container2-item1 {
+  width: 35%;
+  height: 90%;
+  border: 3px solid black;
+  margin: 5px;
+  background-color: darkgray
+}
+.container2-item2 {
+  width: 30%;
+  height: 70%;
+  border: 3px solid black;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: darkgray;
+}
+.container3{
+  border: 3px solid black;
+  height: 30vh;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+.container3-item{
+  width: 20%;
+  height: 90%;
+  border: 3px solid black;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: darkgrey;
+  }
