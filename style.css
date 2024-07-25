@@ -3,7 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container1-head{
+
+body {
+  /* Font sans-serif, welche genau noch offen */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container1-head {
   display: flex;
   justify-content: center;
 }
@@ -54,33 +61,32 @@
   border: 2px hidden black;
 }
 
-.manu ul li a{
+.manu ul li a {
   text-decoration: none;
   color: black;
 }
-.manu ul li a:hover{
+.manu ul li a:hover {
   color: white;
-  }
-  @media (max-width: 768px) {
-  .container1 p{
-      font-size: 20px;
-      display: flex;
-      justify-content: center;
-    }
-    .manu ul li{
-      font-size: 15px;
-      padding: 0;
-      margin-left: auto;
-    }
-    .manu{
-      display: flex;
-      
-    }
-  }
-  .section1{
+}
+@media (max-width: 768px) {
+  .container1 p {
+    font-size: 20px;
     display: flex;
     justify-content: center;
   }
+  .manu ul li {
+    font-size: 15px;
+    padding: 0;
+    margin-left: auto;
+  }
+  .manu {
+    display: flex;
+  }
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+}
 .container2 {
   width: 70%;
   border: 3px hidden black;
@@ -100,27 +106,27 @@
     height: 50vh;
     margin-block: 20px;
   }
-  .container2 .container2-item1{
-    width: 50%
+  .container2 .container2-item1 {
+    width: 50%;
   }
-  .container2 .container2-item2{
-    width: 50%
+  .container2 .container2-item2 {
+    width: 50%;
   }
 }
-.container2 li{
+.container2 li {
   list-style: none;
   margin: 5px;
   font-size: 1.3rem;
   padding: 5px;
   border: 2px hidden black;
-  }
-.container2 h2{
+}
+.container2 h2 {
   font-size: 1.6rem;
   font-weight: bold;
   text-align: center;
   margin: 5px;
 }
-.container2 p{
+.container2 p {
   font-size: 1.2rem;
   font-weight: 600;
   text-align: left;
@@ -146,11 +152,11 @@
   overflow: hidden;
   overflow-y: scroll;
 }
-.section2{
+.section2 {
   display: flex;
   justify-content: center;
 }
-.container3{
+.container3 {
   width: 70%;
   border: 3px hidden black;
   height: 50vh;
@@ -159,7 +165,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: grey;
-gap: 2rem;
+  gap: 2rem;
 }
 @media (max-width: 768px) {
   .container3 {
@@ -168,7 +174,7 @@ gap: 2rem;
     margin-block: 20px;
   }
 }
-.container3-item{
+.container3-item {
   width: 30%;
   height: 60%;
   border: 3px hidden black;
@@ -177,131 +183,161 @@ gap: 2rem;
   background-color: darkgrey;
   overflow: hidden;
   overflow-y: scroll;
+}
+.container3-item img {
+  margin-top: -40px;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 20px;
+  object-fit: contain;
+  border-radius: 20%;
+}
+.container3-item h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .container3-item h3 {
+    font-size: 1.2rem;
   }
-  .container3-item img{
-    margin-top: -40px;
-     width: 100%;
-     height: 80%;
-     object-fit: cover;
-     border-radius: 20px;
-     object-fit: contain;
-     border-radius: 20%;
-
-  }
-  .container3-item h3{
-    font-size: 1.6rem;
-    font-weight: bold;
-    text-align: center;
-    }
-    @media screen and (max-width:600px) {
-      .container3-item h3{
-        font-size: 1.2rem;
-      }
-      
-    }
-    .container3-item p{
-      font-size: 1.2rem;
-      text-align: center;
-    }
-  
-
- 
-
-
+}
+.container3-item p {
+  font-size: 1.2rem;
+  text-align: center;
+}
 
 h1 {
-    text-align: center;
-  }
-  
-.container4{
-   background-color: rgb(223, 210, 210);
-   padding: 20px;
-   margin: 2px;
-   max-width: 1200px;
-   margin-inline: auto;
-   }
-
-.video{
-    display: block;
-    unicode-bidi: isolate;
-    margin-top: px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 150px;
-     padding: 2rem;
-
-    
-
-   }
-
-.st-text{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 266px;
-    margin-inline-end: 300px;
-    unicode-bidi: isolate;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
-    text-align: center;
-
-
+  text-align: center;
 }
 
-
-
-
-.container5{
-    
-    background-color: rgb(223, 210, 210);
-    padding: 20px;
-    margin: 2px;
-    max-width: 1200px;
-    margin-inline: auto;
-
-    
-    
+.container4 {
+  background-color: rgb(223, 210, 210);
+  padding: 20px;
+  margin: 2px;
+  max-width: 1200px;
+  margin-inline: auto;
 }
 
-.sty-tx{
-    padding: 30px;
-    text-align: center;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+.video {
+  display: block;
+  unicode-bidi: isolate;
+  margin-top: px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding: 2rem;
 }
 
-.gallery{
-
-    padding: 20px;
-    margin: 2px;
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    gap: 10rem;
-    
-  
+.st-text {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 266px;
+  margin-inline-end: 300px;
+  unicode-bidi: isolate;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
-  
+.container5 {
+  background-color: rgb(223, 210, 210);
+  padding: 20px;
+  margin: 2px;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.sty-tx {
+  padding: 30px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gallery {
+  padding: 20px;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10rem;
+}
+
 .gallery-item img {
-    
-    display: block;
-    margin: 2px;
-    border-radius: 50%;
-    width: 90%;
-    aspect-ratio: 1;
-    object-fit: cover;
-    border-style: solid;
-    
-  }
- 
-  .button {
-     text-align: center;
-       padding: 0.5rem 0.75rem;
-     font: inherit;
-     font-size: 0.9rem;
-     border-radius: 5px;
-      border: none;
-     cursor: pointer;
-     box-shadow: 1px 3px 5px black;
-    
-  }
-  
-  
+  display: block;
+  margin: 2px;
+  border-radius: 50%;
+  width: 90%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-style: solid;
+}
+
+.button {
+  text-align: center;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 3px 5px black;
+}
+
+/* Container6 */
+
+.container6 {
+  background-color: #ededed;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.container6 h2,
+.container6 h3 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Grid-Container */
+.argumente {
+  display: grid;
+  column-gap: 50px;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* Elemente kommen in eine Reihe, solange sie mindestens 150px gross sein koennen (bis maximal 1fr). 
+  Sonst wird Spaltenanzahl reduziert. */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+  margin: 2rem 0 3rem 0;
+  padding: 0 2rem 0 3rem;
+}
+
+.argument {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.argument img {
+  width: 100%;
+  height: 100px;
+  background-color: #00324b;
+  clip-path: circle();
+}
+.argument img:hover {
+  clip-path: none;
+}
+
+.argument p {
+  /* text-align: justify; */
+  text-align: center;
+  font-size: 80%;
+}
+.argument strong {
+  font-weight: 900;
+  font-size: 120%;
+  /* center hier wirkt bei justify vom anderen Text noch nicht */
+  text-align: center;
+}
+
+.zusammen {
+  white-space: nowrap;
+}
