@@ -427,7 +427,7 @@ h1 {
   flex-direction: column;
   border: 1px hidden;
   background-color: rgb(206, 212, 212);
-  /* margin: 5px; */
+   margin: 5px; 
 
   width: 100vh;
   height: 580px;
