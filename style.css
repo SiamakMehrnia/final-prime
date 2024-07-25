@@ -15,10 +15,10 @@ body {
   justify-content: center;
 }
 .container1 {
-  width: 70%;
+  width: 100vh;
   border: 3px hidden black;
   height: 10%;
-  margin: 5px;
+  /* margin: 5px; */
   display: flex;
   justify-content: space-between;
   gap: 7rem;
@@ -88,12 +88,12 @@ body {
   justify-content: center;
 }
 .container2 {
-  width: 70%;
+  width: 100vh;
   border: 3px hidden black;
   height: 50vh;
-  margin-block: 20px;
+  /* margin-block: 5px;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 5px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,10 +157,10 @@ body {
   justify-content: center;
 }
 .container3 {
-  width: 70%;
+  width: 100vh;
   border: 3px hidden black;
   height: 50vh;
-  margin: 5px;
+  /* margin: 5px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -218,20 +218,31 @@ h1 {
 .container4 {
   background-color: rgb(223, 210, 210);
   padding: 20px;
-  margin: 2px;
-  max-width: 1200px;
+  /* margin: 5px; */
+  width: 100vh;
   margin-inline: auto;
 }
-
-.video {
+.container4 h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .video {
   display: block;
   unicode-bidi: isolate;
+  justify-self:center;
   margin-top: px;
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 150px;
   padding: 2rem;
-}
+} */
+ .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+ }
 
 .st-text {
   display: block;
@@ -249,8 +260,8 @@ h1 {
 .container5 {
   background-color: rgb(223, 210, 210);
   padding: 20px;
-  margin: 2px;
-  max-width: 1200px;
+  /* margin: 5px; */
+  width: 100vh;
   margin-inline: auto;
   
 }
@@ -294,11 +305,16 @@ h1 {
 }
 
 /* Container6 */
-
+.Sia-anpassung{
+  display: flex;
+  justify-content: center;
+}
 .container6 {
+  width: 100vh;
   background-color: #ededed;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  /* margin: 5px; */
 }
 .container6 h2,
 .container6 h3 {
@@ -312,13 +328,19 @@ h1 {
 .argumente {
   display: grid;
   column-gap: 50px;
-  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: 1fr 1fr 1fr;
   /* Elemente kommen in eine Reihe, solange sie mindestens 150px gross sein koennen (bis maximal 1fr). 
   Sonst wird Spaltenanzahl reduziert. */
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
 
   margin: 2rem 0 3rem 0;
   padding: 0 2rem 0 3rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .argumente {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .argument {
@@ -356,10 +378,10 @@ h1 {
   display: flex;
   flex-direction: column;
   align-content: center;
-  border: 1px solid;
+  border: 1px hidden;
   background-color: rgb(225, 231, 231);
 
-  width: 1440px;
+  width: 100vh;
   height: 734px;
 
   gap: 1.5rem;
@@ -388,10 +410,10 @@ h1 {
 .flex-child7 {
   
   align-items: center;
-  width: 291px;
+  width: 300px;
   height: 396px;
   aspect-ratio: 1;
-  border: 1px solid;
+  border: 1px hidden;
   text-align: center;
   padding-block: 1.5rem;
   background-color: #c4c6c9;
@@ -400,23 +422,26 @@ h1 {
 
 .flex-child7:nth-of-type(2) {
   /* background-color: #808080; */
-}
 
-.flex-child7:nth-of-type(3) {
-  /* background-color: #808080; */
-}
 
-.flex-child7:nth-of-type(4) {
+/* .flex-child7:nth-of-type(3) {
   /* background-color: #808080; */
-}
+/* } */
+
+/* .flex-child7:nth-of-type(4) { */
+  /* background-color: #808080; */
+/* } */
 
 .container8 {
   display: flex;
   flex-direction: column;
-  border: 1px solid;
+  border: 1px hidden;
   background-color: rgb(206, 212, 212);
  
-  width: 1440px;
+  /* width: 1440px; */
+  /* margin: 5px; */
+
+  width: 100vh;
   height: 580px;
 
   gap: 1.5rem;
